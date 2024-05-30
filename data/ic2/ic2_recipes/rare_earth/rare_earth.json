@@ -1,0 +1,53 @@
+{
+	"output": {
+		"item": "ic2:dust_rare_earth",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"inputs": [
+		{
+			"item": "minecraft:stone",
+			"value": 3.125
+		},
+		{
+			"item": "minecraft:deepslate",
+			"value": 3.125
+		},
+		{
+			"item": "minecraft:granite",
+			"value": 62.5
+		},
+		{
+			"item": "minecraft:diorite",
+			"value": 62.5
+		},
+		{
+			"item": "minecraft:andesite",
+			"value": 62.5
+		},
+		{
+			"item": "minecraft:tuff",
+			"value": 62.5
+		},
+		{
+			"item": "minecraft:netherrack",
+			"value": 7.8125
+		},
+		{
+			"item": "minecraft:mycelium",
+			"value": 100.0
+		},
+		{
+			"item": "minecraft:obsidian",
+			"value": 200.0
+		},
+		{
+			"item": "minecraft:soul_sand",
+			"value": 200.0
+		},
+		{
+			"item": "minecraft:soul_soil",
+			"value": 200.0
+		}
+	]
+}

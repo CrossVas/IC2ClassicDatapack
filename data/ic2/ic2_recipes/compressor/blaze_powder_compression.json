@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:blaze_powder",
+		"size": 5,
+		"type": "ic2:nbt"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:blaze_rod",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

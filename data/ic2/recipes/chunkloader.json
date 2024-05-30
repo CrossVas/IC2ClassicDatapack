@@ -1,0 +1,49 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:chunkloader",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:ender_pearl",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:proximity_booster_pad_upgrade",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:energy_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:advanced_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		" X ",
+		"YCY",
+		"VBV"
+	]
+}

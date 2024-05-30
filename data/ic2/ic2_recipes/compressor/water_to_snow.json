@@ -1,0 +1,19 @@
+{
+	"input": {
+		"fluid": "minecraft:water",
+		"amount": 1000,
+		"size": 1,
+		"type": "ic2:fluid"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:snowball",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

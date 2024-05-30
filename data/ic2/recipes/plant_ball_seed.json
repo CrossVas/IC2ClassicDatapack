@@ -1,0 +1,132 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:plant_ball",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"size": 1,
+			"and": false,
+			"elements": [
+				{
+					"item": "minecraft:sugar_cane",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:cactus",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:vine",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:grass",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:tall_grass",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"tag": "minecraft:leaves",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"tag": "forge:crops",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"item": "ic2:hemp",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"tag": "forge:mushrooms",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"tag": "forge:seeds",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"item": "minecraft:apple",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "ic2:sticky_resin",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "ic2:crop_seed",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:bamboo",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"tag": "minecraft:flowers",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"item": "minecraft:kelp",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "ic2:hops",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:warped_wart_block",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:nether_wart_block",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:sweet_berries",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:glow_berries",
+					"size": 1,
+					"type": "ic2:item"
+				}
+			],
+			"type": "ic2:array",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"X X",
+		"XXX"
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:piston",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "minecraft:planks",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:cobblestone",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		},
+		{
+			"size": 1,
+			"and": false,
+			"elements": [
+				{
+					"tag": "forge:ingots/silver",
+					"size": 1,
+					"type": "ic2:tag"
+				},
+				{
+					"tag": "forge:ingots/bronze",
+					"size": 1,
+					"type": "ic2:tag"
+				}
+			],
+			"type": "ic2:array",
+			"letter": "C"
+		},
+		{
+			"tag": "forge:dusts/redstone",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "V"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"YCY",
+		"YVY"
+	]
+}

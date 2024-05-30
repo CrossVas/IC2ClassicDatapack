@@ -1,0 +1,30 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:electric_tree_tap",
+		"nbt": "{inv_import:1b}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:electric_tree_tap",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:hopper",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:upgrade_simple_import",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

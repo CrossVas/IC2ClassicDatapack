@@ -1,0 +1,37 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:colossal_compressor",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:crying_obsidian",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:singularity_compressor",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:colossal_base_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XCX"
+	]
+}

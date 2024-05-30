@@ -1,0 +1,49 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:basic_field_expansion_pad_upgrade",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:reflector",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:frequency_transmitter",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:upgrade_overclocker",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:upgrade_base",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CCC",
+		"VBV"
+	]
+}

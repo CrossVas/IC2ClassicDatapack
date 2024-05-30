@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "advanced_solars:hybrid_solar_panel",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:carbon_plate",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:lapis_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "advanced_solars:advanced_solar_panel",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "advanced_solars:enriched_sunnarium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

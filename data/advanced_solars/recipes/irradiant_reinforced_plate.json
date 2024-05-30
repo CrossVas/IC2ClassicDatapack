@@ -1,0 +1,49 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "advanced_solars:irradiant_reinforced_plate",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:redstone",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "advanced_solars:sunnarium_part",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:lapis_lazuli",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "advanced_solars:reinforced_iridium_iron_plate",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:diamond",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"XBX"
+	]
+}

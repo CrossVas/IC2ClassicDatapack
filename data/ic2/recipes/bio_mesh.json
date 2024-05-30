@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:bio_mesh",
+		"size": 4,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:compressed_plant_ball",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:sticky_resin",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	]
+}

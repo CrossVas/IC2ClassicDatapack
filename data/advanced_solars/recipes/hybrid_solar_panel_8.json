@@ -1,0 +1,19 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "advanced_solars:hybrid_solar_panel",
+		"size": 8,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "advanced_solars:ultimate_hybrid_solar_panel",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:extinguish_module",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:base_module",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"fluid": "minecraft:water",
+			"amount": 1000,
+			"size": 1,
+			"type": "ic2:fluid"
+		}
+	]
+}

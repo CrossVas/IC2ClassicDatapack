@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:upgrade_overclocker",
+		"size": 16,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:heat_storage_six",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:upgrade_base",
+			"size": 16,
+			"type": "ic2:nbt",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	]
+}

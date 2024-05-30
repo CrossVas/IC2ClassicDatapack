@@ -1,0 +1,15 @@
+{
+	"input": {
+		"item": "minecraft:quartz",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"item": "minecraft:andesite",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"energy": 1000,
+	"charging": false,
+	"discharging": true
+}

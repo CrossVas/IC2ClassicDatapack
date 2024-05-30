@@ -1,0 +1,19 @@
+{
+	"input": {
+		"item": "minecraft:hay_block",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 2.7,
+		"nbt": "{time_mod:4.0d}",
+		"outputs": [
+			{
+				"item": "ic2:flour",
+				"size": 9,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

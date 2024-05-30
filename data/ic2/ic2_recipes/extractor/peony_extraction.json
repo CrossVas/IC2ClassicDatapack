@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:peony",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:pink_dye",
+				"size": 6,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

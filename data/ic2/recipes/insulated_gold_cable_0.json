@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:gold_insulated_cable_item",
+		"size": 4,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "ic2:rubber",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:ingots/gold",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		" X ",
+		"XYX",
+		" X "
+	]
+}

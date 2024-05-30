@@ -1,0 +1,5 @@
+{
+	"fluid": "ic2:bio_fuel",
+	"burn_time": 2000,
+	"production": 128
+}

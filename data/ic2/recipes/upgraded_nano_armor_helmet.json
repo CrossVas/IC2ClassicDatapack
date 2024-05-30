@@ -1,0 +1,46 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:nano_suit_helmet",
+		"nbt": "{armor_upgrades:[{Count:1b,id:\"ic2:energy_crystal\",upgrade_type:\"battery\"}],mods:{storage_add:100000,tier:2,transfer_add:250}}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"modifier": {
+		"flag": true,
+		"item": "ic2:nano_suit_helmet",
+		"usesInput": true,
+		"tag": "upgraded",
+		"tooltip": "{\"text\":\"Upgrades the Module Slots to Quantum Level\"}",
+		"type": "ic2:flag_modifier"
+	},
+	"inputs": [
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:nano_suit_helmet",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		" X ",
+		" Y ",
+		"C C"
+	]
+}

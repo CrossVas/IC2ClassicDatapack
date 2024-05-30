@@ -1,0 +1,37 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:lapatron_crystal",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:lapis_lazuli",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:energy_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"XCX",
+		"XYX"
+	]
+}

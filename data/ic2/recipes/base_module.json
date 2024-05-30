@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:base_module",
+		"size": 2,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:reinforced_stone",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:upgrade_base",
+			"size": 2,
+			"type": "ic2:nbt",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	]
+}

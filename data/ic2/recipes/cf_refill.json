@@ -1,0 +1,14 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:repair",
+	"enabled": true,
+	"repair": "ic2:foam_sprayer",
+	"material": {
+		"item": "ic2:cf_pellet",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"size": 100,
+	"hidden": false,
+	"consume": false
+}

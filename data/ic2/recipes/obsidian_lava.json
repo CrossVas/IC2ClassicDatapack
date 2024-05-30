@@ -1,0 +1,34 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:obsidian",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:cell_water",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:cell_water",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:cell_lava",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:cell_lava",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

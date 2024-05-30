@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:villager_o_mat",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:hopper",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:player_detector",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:trade_o_mat",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:clock",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:stabilized_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

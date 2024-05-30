@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:crafter",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:upgrade_crafting",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:industrial_worktable",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:chest",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:stabilized_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

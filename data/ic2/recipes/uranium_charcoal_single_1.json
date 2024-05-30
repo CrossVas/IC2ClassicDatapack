@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:uranium_rod_charcoal_single",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:dusts/charcoal",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"item": "ic2:uranium_rod_re_enriched_charcoal",
+			"size": 1,
+			"type": "ic2:nbt"
+		}
+	]
+}

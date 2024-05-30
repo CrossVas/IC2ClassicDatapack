@@ -1,0 +1,50 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:upgrade_cobble_generator",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:glass",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:golden_pickaxe",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:magma_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"fluid": "minecraft:water",
+			"amount": 1000,
+			"size": 1,
+			"type": "ic2:fluid",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:upgrade_base",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"C V",
+		"XBX"
+	]
+}

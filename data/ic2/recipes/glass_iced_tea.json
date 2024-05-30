@@ -1,0 +1,29 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:glass_iced_tea",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:glass_cold_black_tea",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:sugar",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:ice",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

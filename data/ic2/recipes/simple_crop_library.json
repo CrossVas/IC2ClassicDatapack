@@ -1,0 +1,66 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:simple_crop_library",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"modifier": {
+		"item": "ic2:tool_box",
+		"tag": "items",
+		"type": "ic2:empty_inventory_modifier"
+	},
+	"inputs": [
+		{
+			"item": "ic2:crop_sticks",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:crop_seed",
+			"size": 1,
+			"type": "ic2:sub_item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:luminator",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:tool_box",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:hopper",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		},
+		{
+			"item": "ic2:machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "M"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVB",
+		"NMN"
+	]
+}

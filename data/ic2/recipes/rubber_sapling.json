@@ -1,0 +1,49 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:rubber_sapling",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:plant_ball",
+			"size": 16,
+			"type": "ic2:nbt",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:oak_sapling",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:birch_sapling",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "minecraft:spruce_sapling",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:jungle_sapling",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CXV",
+		"XBX"
+	]
+}

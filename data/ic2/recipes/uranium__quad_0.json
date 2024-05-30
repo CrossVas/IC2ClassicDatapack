@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:uranium_rod_quad",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:uranium_rod_dual",
+			"size": 1,
+			"type": "ic2:nbt",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:plate_dense_copper",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		" X ",
+		"YYY",
+		" X "
+	]
+}

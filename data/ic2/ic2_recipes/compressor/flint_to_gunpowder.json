@@ -1,0 +1,19 @@
+{
+	"input": {
+		"item": "minecraft:flint",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"chance": 0.25,
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:gunpowder",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:chance"
+	}
+}

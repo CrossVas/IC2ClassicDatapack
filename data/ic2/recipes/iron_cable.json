@@ -1,0 +1,23 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:iron_cable_item",
+		"size": 12,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:ingots/refined_iron",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		"XXX"
+	]
+}

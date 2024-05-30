@@ -1,0 +1,18 @@
+{
+	"type": "canning",
+	"input": {
+		"tag": "forge:ingots/uranium",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"container": {
+		"item": "ic2:cell_empty",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"item": "ic2:uranium_rod_single",
+		"size": 1,
+		"type": "ic2:item"
+	}
+}

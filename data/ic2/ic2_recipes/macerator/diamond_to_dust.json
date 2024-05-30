@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "forge:gems/diamond",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:dust_diamond",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

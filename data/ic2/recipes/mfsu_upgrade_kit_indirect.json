@@ -1,0 +1,43 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:mfsu_upgrade_kit",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:lapatron_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:wrench",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:advanced_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"XCX",
+		"XVX"
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:fisher",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:hopper",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:fishing_rod",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:plasma_core",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:stabilized_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:ranged_pump",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

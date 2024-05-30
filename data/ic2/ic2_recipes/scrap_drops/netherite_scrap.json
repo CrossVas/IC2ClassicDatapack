@@ -1,0 +1,8 @@
+{
+	"drop": {
+		"item": "minecraft:netherite_scrap",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"chance": 0.01
+}

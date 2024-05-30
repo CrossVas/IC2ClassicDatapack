@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:bone",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.2,
+		"outputs": [
+			{
+				"item": "minecraft:bone_meal",
+				"size": 5,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

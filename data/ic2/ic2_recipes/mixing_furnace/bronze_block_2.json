@@ -1,0 +1,25 @@
+{
+	"input": [
+		{
+			"item": "ic2:copper_dust_block",
+			"size": 3,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:tin_dust_block",
+			"size": 1,
+			"type": "ic2:nbt"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:bronze_block",
+				"size": 4,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

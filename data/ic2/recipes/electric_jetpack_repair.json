@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:electric_jetpack",
+		"nbt": "{SpecialMode:0b}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"modifier": {
+		"flag": false,
+		"item": "ic2:electric_jetpack",
+		"usesInput": true,
+		"tag": "SpecialMode",
+		"type": "ic2:flag_modifier"
+	},
+	"inputs": [
+		{
+			"item": "ic2:electric_jetpack",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:magnet",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

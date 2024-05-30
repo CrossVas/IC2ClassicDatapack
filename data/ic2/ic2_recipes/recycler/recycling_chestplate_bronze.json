@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "ic2:armor_bronze_chest",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "ic2:ingot_bronze",
+			"size": 1,
+			"type": "ic2:nbt"
+		},
+		"minOut": 0,
+		"maxOut": 8,
+		"type": "ic2:range"
+	}
+}

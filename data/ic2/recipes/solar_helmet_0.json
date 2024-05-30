@@ -1,0 +1,37 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:solar_helmet",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:ingots/iron",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:solar_panel",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:copper_insulated_cable_item",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"CCC"
+	]
+}

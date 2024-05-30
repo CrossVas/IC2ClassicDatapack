@@ -1,0 +1,25 @@
+{
+	"input": {
+		"type": "ic2:empty"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "ic2:whisky",
+		"amount": 1000
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:whisky_grist",
+				"size": 1,
+				"type": "ic2:item"
+			}
+		],
+		"fluidOutputs": [],
+		"type": "ic2:simple"
+	}
+}

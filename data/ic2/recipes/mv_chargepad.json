@@ -1,0 +1,42 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:chargepad_mv",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "ic2:rubber",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:stone_pressure_plate",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:mfe",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:cfoam_wall_yellow",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "ic2:cfoam/walls",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dyes/yellow",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	]
+}

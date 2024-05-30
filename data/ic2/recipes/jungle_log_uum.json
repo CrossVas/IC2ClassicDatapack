@@ -1,0 +1,25 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:jungle_log",
+		"size": 8,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:uumatter",
+			"size": 1,
+			"type": "ic2:nbt",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		"   ",
+		"  X",
+		"   "
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "ic2:rare_earth_chunk",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:dead_magnet",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

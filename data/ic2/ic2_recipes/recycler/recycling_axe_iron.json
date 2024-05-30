@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:iron_axe",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:iron_ingot",
+			"size": 1,
+			"type": "ic2:nbt"
+		},
+		"minOut": 0,
+		"maxOut": 3,
+		"type": "ic2:range"
+	}
+}

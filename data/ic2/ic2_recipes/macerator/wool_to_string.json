@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "minecraft:wool",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "minecraft:string",
+				"size": 4,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

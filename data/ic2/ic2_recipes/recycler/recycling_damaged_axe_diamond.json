@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:diamond_axe",
+		"undamaged": false,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "ic2:scrap_metal",
+			"size": 1,
+			"type": "ic2:nbt"
+		},
+		"minOut": 0,
+		"maxOut": 3,
+		"type": "ic2:range"
+	}
+}

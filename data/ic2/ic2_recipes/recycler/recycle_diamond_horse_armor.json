@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:diamond_horse_armor",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 1.0,
+		"outputs": [
+			{
+				"item": "minecraft:diamond",
+				"size": 5,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

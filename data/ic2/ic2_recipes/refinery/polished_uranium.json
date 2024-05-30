@@ -1,0 +1,27 @@
+{
+	"input": {
+		"tag": "forge:ores/uranium",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "ic2:alcohol",
+		"amount": 100
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:ore_uranium",
+				"size": 5,
+				"type": "ic2:item"
+			}
+		],
+		"fluidOutputs": [],
+		"type": "ic2:simple"
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:precision_wrench",
+		"nbt": "{lossless:1b}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:upgrade_efficiency",
+			"size": 10,
+			"type": "ic2:nbt",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:obscurator",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:plasma_core",
+			"size": 5,
+			"type": "ic2:nbt",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:precision_wrench",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:electric_vent_advanced",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 10,
+			"type": "ic2:nbt",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

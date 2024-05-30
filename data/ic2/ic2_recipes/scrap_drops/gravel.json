@@ -1,0 +1,8 @@
+{
+	"drop": {
+		"item": "minecraft:gravel",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"chance": 3.0
+}

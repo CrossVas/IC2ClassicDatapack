@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:cfoam_slab_pink",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "ic2:cfoam/slabs",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dyes/pink",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"input": {
+		"item": "minecraft:mud",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:dirt",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			{
+				"item": "minecraft:clay_ball",
+				"size": 1,
+				"type": "ic2:item"
+			}
+		],
+		"fluidOutputs": [
+			{
+				"fluid": "minecraft:water",
+				"amount": 500
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

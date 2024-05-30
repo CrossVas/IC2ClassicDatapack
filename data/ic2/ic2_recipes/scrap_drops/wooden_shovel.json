@@ -1,0 +1,9 @@
+{
+	"drop": {
+		"item": "minecraft:wooden_shovel",
+		"nbt": "{Damage:0}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"chance": 1.0
+}

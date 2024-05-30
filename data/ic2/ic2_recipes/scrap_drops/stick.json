@@ -1,0 +1,8 @@
+{
+	"drop": {
+		"item": "minecraft:stick",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"chance": 4.0
+}

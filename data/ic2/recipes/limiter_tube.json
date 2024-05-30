@@ -1,0 +1,35 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:limiter_tube",
+		"size": 8,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:redstone_tube",
+			"size": 4,
+			"type": "ic2:nbt",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:switch_tube",
+			"size": 4,
+			"type": "ic2:nbt",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XYC"
+	]
+}

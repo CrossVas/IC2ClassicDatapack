@@ -1,0 +1,10 @@
+{
+	"type": "fuel",
+	"input": {
+		"item": "minecraft:glowstone_dust",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"multiplier": true,
+	"value": 0.3
+}

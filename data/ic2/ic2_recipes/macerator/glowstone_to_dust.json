@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:glowstone",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.15,
+		"outputs": [
+			{
+				"item": "minecraft:glowstone_dust",
+				"size": 4,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

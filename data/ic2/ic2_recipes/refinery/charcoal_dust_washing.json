@@ -1,0 +1,28 @@
+{
+	"input": {
+		"item": "ic2:dust_charcoal",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:water",
+		"amount": 100
+	},
+	"output": {
+		"xp": 0.0,
+		"nbt": "{time_mod:0.1d}",
+		"outputs": [
+			{
+				"item": "ic2:dust_hydrated_charcoal",
+				"size": 1,
+				"type": "ic2:item"
+			}
+		],
+		"fluidOutputs": [],
+		"type": "ic2:simple"
+	}
+}

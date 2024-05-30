@@ -1,0 +1,60 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:quantum_suit_leggings",
+		"nbt": "{armor_upgrades:[{Count:1b,id:\"ic2:lapatron_crystal\",upgrade_type:\"battery\"},{Count:1b,id:\"ic2:speed_boost_module\",upgrade_type:\"movement\"}],mods:{storage_add:1000000,tier:3,transfer_add:1000}}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"modifier": {
+		"tooltip": "{\"italic\":false,\"color\":\"gray\",\"translate\":\"Removes all installed Modules and installs the Default Functionality\"}",
+		"type": "ic2:info_modifier"
+	},
+	"inputs": [
+		{
+			"item": "ic2:machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:lapatron_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:nano_suit_leggings",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "minecraft:glowstone_dust",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:speed_boost_module",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

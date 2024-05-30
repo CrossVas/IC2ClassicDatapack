@@ -1,0 +1,56 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:diamond_drill",
+		"nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:3s}]}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 5,
+			"type": "ic2:nbt",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:end_crystal",
+			"size": 3,
+			"type": "ic2:nbt",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:diamond_drill",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:upgrade_base",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:magnet",
+			"size": 5,
+			"type": "ic2:nbt",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

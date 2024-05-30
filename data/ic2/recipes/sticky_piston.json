@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:sticky_piston",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:piston",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:sticky_resin",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

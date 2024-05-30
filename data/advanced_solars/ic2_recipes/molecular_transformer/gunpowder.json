@@ -1,0 +1,15 @@
+{
+	"input": {
+		"item": "minecraft:netherrack",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"item": "minecraft:gunpowder",
+		"size": 2,
+		"type": "ic2:item"
+	},
+	"energy": 70000,
+	"charging": true,
+	"discharging": false
+}

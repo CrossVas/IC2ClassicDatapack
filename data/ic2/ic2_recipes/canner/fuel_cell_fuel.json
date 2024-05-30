@@ -1,0 +1,10 @@
+{
+	"type": "fuel",
+	"input": {
+		"item": "ic2:cell_fuel",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"multiplier": true,
+	"value": 0.7
+}

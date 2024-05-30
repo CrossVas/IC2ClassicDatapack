@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:monitor_card",
+		"size": 6,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:frequency_transmitter",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:ender_pearl",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:nano_suit_boots",
+		"nbt": "{armor_upgrades:[{Count:1b,id:\"ic2:energy_crystal\",upgrade_type:\"battery\"}],mods:{storage_add:100000,tier:2,transfer_add:250}}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:carbon_plate",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:energy_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"X X",
+		"XYX"
+	]
+}

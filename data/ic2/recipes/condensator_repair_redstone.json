@@ -1,0 +1,14 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:repair",
+	"enabled": true,
+	"repair": "ic2:condensator",
+	"material": {
+		"tag": "forge:dusts/redstone",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"size": 10000,
+	"hidden": false,
+	"consume": false
+}

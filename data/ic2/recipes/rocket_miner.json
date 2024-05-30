@@ -1,0 +1,61 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:rocket_miner",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "minecraft:chest",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:lapatron_crystal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:pump",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:miner",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": "minecraft:firework_rocket",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		},
+		{
+			"item": "minecraft:minecart",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "M"
+		}
+	],
+	"pattern": [
+		"XYC",
+		"VBV",
+		"NMN"
+	]
+}

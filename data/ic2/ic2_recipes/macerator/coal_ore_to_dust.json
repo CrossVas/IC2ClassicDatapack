@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "forge:ores/coal",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.5,
+		"outputs": [
+			{
+				"item": "ic2:dust_coal",
+				"size": 2,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

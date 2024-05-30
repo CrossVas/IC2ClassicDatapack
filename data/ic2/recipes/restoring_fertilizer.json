@@ -1,0 +1,44 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:restoring_fertilizer",
+		"size": 3,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:cell_water",
+			"size": 64,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:cell_water",
+			"size": 64,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:fertilizer",
+			"size": 64,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:fertilizer",
+			"size": 64,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:cell_air",
+			"size": 64,
+			"type": "ic2:nbt"
+		},
+		{
+			"item": "ic2:cell_air",
+			"size": 64,
+			"type": "ic2:nbt"
+		}
+	]
+}

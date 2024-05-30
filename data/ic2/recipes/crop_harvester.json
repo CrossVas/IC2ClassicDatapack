@@ -1,0 +1,55 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:crop_harvester",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:crop_analyzer",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:hopper",
+			"size": 2,
+			"type": "ic2:nbt",
+			"letter": "C"
+		},
+		{
+			"tag": "forge:chests/wooden",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:miningpipe_slim",
+			"size": 8,
+			"type": "ic2:nbt",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:advanced_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

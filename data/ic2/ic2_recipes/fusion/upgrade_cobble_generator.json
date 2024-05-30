@@ -1,0 +1,6 @@
+{
+	"input": "ic2:upgrade_cobble_generator",
+	"consumed": false,
+	"fuelValue": 1000,
+	"productionRate": 1.0
+}

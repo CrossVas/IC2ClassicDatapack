@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:golden_horse_armor",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.5,
+		"outputs": [
+			{
+				"item": "minecraft:gold_ingot",
+				"size": 5,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

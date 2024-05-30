@@ -1,0 +1,25 @@
+{
+	"input": {
+		"type": "ic2:empty"
+	},
+	"first_tank": {
+		"fluid": "minecraft:water",
+		"amount": 1000
+	},
+	"second_tank": {
+		"fluid": "ic2:woodgas",
+		"amount": 1000
+	},
+	"output": {
+		"xp": 0.0,
+		"nbt": "{time_mod:2.0d}",
+		"outputs": [],
+		"fluidOutputs": [
+			{
+				"fluid": "ic2:bio_fuel",
+				"amount": 100
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

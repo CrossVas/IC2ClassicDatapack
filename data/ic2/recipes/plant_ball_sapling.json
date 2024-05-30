@@ -1,0 +1,25 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:plant_ball",
+		"size": 2,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "minecraft:saplings",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"X X",
+		"XXX"
+	]
+}

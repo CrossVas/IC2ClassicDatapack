@@ -1,0 +1,8 @@
+{
+	"drop": {
+		"item": "minecraft:cooked_rabbit",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"chance": 0.9
+}

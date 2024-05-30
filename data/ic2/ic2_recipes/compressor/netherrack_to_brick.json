@@ -1,0 +1,18 @@
+{
+	"input": {
+		"item": "minecraft:netherrack",
+		"size": 3,
+		"type": "ic2:nbt"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:nether_bricks",
+				"size": 1,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

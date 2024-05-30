@@ -1,0 +1,25 @@
+{
+	"input": [
+		{
+			"item": "minecraft:raw_copper",
+			"size": 3,
+			"type": "ic2:item"
+		},
+		{
+			"item": "ic2:raw_tin",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:ingot_bronze",
+				"size": 8,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

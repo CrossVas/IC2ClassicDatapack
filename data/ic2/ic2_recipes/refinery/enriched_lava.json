@@ -1,0 +1,27 @@
+{
+	"input": {
+		"item": "minecraft:blaze_powder",
+		"size": 5,
+		"type": "ic2:nbt"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:lava",
+		"amount": 16000
+	},
+	"output": {
+		"xp": 0.0,
+		"nbt": "{energy_mod:8.0d,time_mod:2.0d}",
+		"outputs": [],
+		"fluidOutputs": [
+			{
+				"fluid": "ic2:blazing_lava",
+				"amount": 16000
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

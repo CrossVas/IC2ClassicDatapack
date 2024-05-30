@@ -1,0 +1,44 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:fuel_jetpack",
+		"nbt": "{Damage:18002}",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:ingots/refined_iron",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:fuel_can",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"tag": "forge:dusts/redstone",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "V"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"XCX",
+		"V V"
+	]
+}

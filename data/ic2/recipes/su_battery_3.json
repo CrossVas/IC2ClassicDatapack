@@ -1,0 +1,37 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:su_battery",
+		"size": 8,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:copper_insulated_cable_item",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:dust_hydrated_coal",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"tag": "forge:dusts/redstone",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"X",
+		"Y",
+		"C"
+	]
+}

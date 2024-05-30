@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:cfoam_block_brown",
+		"size": 1,
+		"type": "ic2:nbt"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "ic2:cfoam/block",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dyes/brown",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	]
+}

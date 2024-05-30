@@ -1,0 +1,19 @@
+{
+	"input": {
+		"tag": "forge:storage_blocks/raw_tin",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 3.6,
+		"nbt": "{time_mod:4.0d}",
+		"outputs": [
+			{
+				"item": "ic2:dust_tin",
+				"size": 18,
+				"type": "ic2:nbt"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:shulker_shell",
+		"size": 2,
+		"type": "ic2:nbt"
+	},
+	"hidden": true,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:uumatter",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:shulker_shell",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		" X ",
+		"XYX",
+		" X "
+	]
+}
