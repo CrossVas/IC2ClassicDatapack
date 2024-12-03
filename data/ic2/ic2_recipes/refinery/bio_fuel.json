@@ -1,7 +1,7 @@
 {
 	"input": {
 		"item": "ic2:compressed_plant_ball",
-		"size": 16,
+		"size": 2,
 		"type": "ic2:nbt"
 	},
 	"first_tank": {
@@ -18,7 +18,7 @@
 		"fluidOutputs": [
 			{
 				"fluid": "ic2:bio_fuel",
-				"amount": 250
+				"amount": 500
 			}
 		],
 		"type": "ic2:simple"

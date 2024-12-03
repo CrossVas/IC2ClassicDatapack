@@ -118,6 +118,11 @@
 					"item": "minecraft:glow_berries",
 					"size": 1,
 					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:cocoa_beans",
+					"size": 1,
+					"type": "ic2:item"
 				}
 			],
 			"type": "ic2:array",
